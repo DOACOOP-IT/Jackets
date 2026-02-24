@@ -1,14 +1,28 @@
 <!DOCTYPE html>
-<html>
-   <head>
-      <title>ระบบเลือกขนาดเสื้อ Jacket สหกรณ์ออมทรัพย์กรมวิชาการเกษตร จำกัด</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <base target="_top">
-   </head>
-   <body>
-      <iframe
-         style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"
-         src="https://script.google.com/macros/s/AKfycby3TnLea4CM5SusQUFE_nvM0D3NvIC-OW_F_yNM9q3cTgcLACe-Uh0kk0zunw9E5VSt/exec">
-      </iframe>
-   </body>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <title>ระบบเลือกขนาดเสื้อ Jacket สหกรณ์ออมทรัพย์กรมวิชาการเกษตร จำกัด</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ป้องกันปัญหาหน้าเว็บถูกฝังใน iframe ซ้อนกัน -->
+    <base target="_top">
+    <style>
+        /* ลบ margin/padding พื้นฐานของเบราว์เซอร์ เพื่อให้ iframe เต็มจอ 100% */
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden; /* ป้องกันการมีแถบเลื่อนซ้อนกัน */
+            background-color: #f3f4f6; /* สีพื้นหลังระหว่างรอโหลด */
+        }
+    </style>
+</head>
+<body>
+    <iframe
+        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;"
+        src="https://script.google.com/macros/s/AKfycby3TnLea4CM5SusQUFE_nvM0D3NvIC-OW_F_yNM9q3cTgcLACe-Uh0kk0zunw9E5VSt/exec"
+        allowfullscreen="true">
+    </iframe>
+</body>
 </html>
